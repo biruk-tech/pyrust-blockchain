@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+rust = "1.82.0"  # or the version you want to use
+cargo = "1.82.0"
+pyo3 = { version = "0.23.1", features = ["extension-module"] }
+sha2 = { version = "0.10.8", default-features = false } # Cryptography utility
